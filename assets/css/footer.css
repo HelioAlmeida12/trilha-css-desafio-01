@@ -1,0 +1,31 @@
+/* Estilização do roda pe da pagina */
+
+footer{
+    cursor: pointer;
+    background: linear-gradient(
+        180dg,
+        rgba(51, 168, 219, 0) 0%,
+        rgba(51, 168, 219, 0.2) 99.99%,
+        rgba(51, 168, 219, 0.2) 100%
+    );
+}
+/* Toda a img dentro do footer ira ter uma mrgem, para todas as direções de 10px */
+
+footer img{
+    margin: 10px;
+}
+
+ /* customização apenas da tag <a> dentro do footer */
+
+ footer a{
+    color: rgba(52,169,220,0.5);
+    text-decoration: none; /* tira a estilização padrão de um link (sublinado) */
+    font-size: 16px;
+    font-weight: 900; /* negrito */
+ }
+
+ /* customização apenas da tag <p> dentro do footer */
+
+ footer p {
+    padding-bottom: 40px;
+ }
